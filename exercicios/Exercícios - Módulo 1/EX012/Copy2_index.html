@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="TNT.ico.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedado localmente</h1>
+    <p>Este videos está hospedado no meu próprio servidor.</p>
+
+    <video width="500" poster="imagens/Screenshot_1.png" controls>
+        <source src="media/Pexels-Tima-Miroshnichenko-6754815.mp4.mp4" type="video/mp4">
+        <source src="media/Pexels-Tima-Miroshnichenko-6754815.ogv.ogv" type="video/ogg">
+        <source src="media/Pexels-Tima-Miroshnichenko-6754815.webm.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+
+        <!--O comando (poster) é relativo a capa da media de vídeo-->
+        <!--(Width=Largura)(Height=Altura)-->
+
+        <!--Obs: Este tipo de hospedagem não é recomendado por possíveis problemas de tráfego de dados.-->   
+    </video>
+    <h1>Inserindo videos do Youtube.</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe src="https://player.vimeo.com/video/119573692?h=59b93d86ca" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/119573692">
+</body>
+</html>

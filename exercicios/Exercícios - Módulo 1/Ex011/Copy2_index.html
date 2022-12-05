@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+<!--Source é usado para definir e ajustar imagens para que se adaptem em diferentes resoluções.-->
+<!--A ordem dos sorcers não pode ser revertida.-->
+
+<h1>Reproduzindo audio</h1>
+<p>Vamos aprender a reproduzir audios em HTML5</p><!--Formatos indicados-MP3 WAV OGG-->
+<audio src="./midia/Kept - Crystal Castles.mp3" controls loop></audio>
+
+
+<p>Outra forma</p>
+<audio preload="metadata" controls loop>
+    <source src="midia/Kept - Crystal Castles.mp3" autoplay controls type="audio/mpeg">
+    <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/Kept - Crystal Castles.mp3">Clique aqui para baixar o arquivo.</a></p><!--Mensagem de alerta caso os formatos de audios não forem compatíveis. Logo será indicado para download-->
+</audio>
+
+    
+</body>
+</html>

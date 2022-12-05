@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="TNT.ico.ico" type="image/x-icon">
+    <title>Links e âncoras</title>
+</head>
+<body>
+    <h1>Usando links Externos</h1>
+    <p>Você pode acessar <a href="https://github.com/BMoon95" target="_blank" rel="external"> minha página no GitHub</a></p>
+    <p>Você também pode acessar também <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY" target="_blank" rel="external">meu canal no youtube</a></p>
+    <!--a tag <a> refere-se a inclusão de links externos. Conhecida como âncora.-->
+        <!--<href> link de origem-->
+            <!--Target refere-se ao tipo de abertura do link-->
+            <!--_blank para abertura de link em outro aba-->
+
+
+<br>
+
+<h1>Usando links internos</h1>
+<p>A segunda página está aqui <a href="pagina2.html" target="_blank" rel="next">Página 2</a></p>
+<p>Você também pode acessar nossa <a href="./noticias/noticias.html" rel="_self">página de notícias</a>.</p>
+
+<h1>Links para downloads</h1>
+
+<ul>
+    <li><a href="/html-css/exercicios/Arquivos/Sobre bits e bytes.pdf" dowload="Sobre bits e bytes.pdf" type="aplication/pdf" >Baixe meu PDF</a></li><!--Definições de download-->
+    <!--a relação(rel) de download é preciso especifícar o tipo. Ex:PDF.pdf rel="aplication/pdf"-->
+    <!--Parâmetro <download> causa problemas no Chrome-->
+    <br>
+    <li><a href="../arquivos/Passions_Conflict.zip" download="Passions_Conflict.zip" type="aplication/zip">Passions_Conflict.zip</a></li>
+</ul>
+
+<ul>
+    <li></li><!--<li*4> cria uma lista de quatro ou mais linhas-->
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+</body>
+</html>

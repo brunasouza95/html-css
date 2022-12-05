@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url("./fonts/love\ larry\ ttf.ttf") format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded - opentype
+            truetype-aat (Apple Advanced Typography)
+            -svg
+
+            */
+        }
+
+        @font-face {
+            font-family: 'burin';
+            src: url(Fonts/Burin\ Roman\ Std\ Regular.otf) format('opentype')
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h1 {
+            font-family: 'burin', Times, serif;
+            font-size: 48px;
+            font-weight: normal;
+            color: #BE8A3A
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error neque accusamus quasi nulla eius, cumque vitae laboriosam, non amet iste animi voluptatum atque ut tenetur, placeat voluptates ratione earum quas.</p>
+    
+</body>
+</html>
