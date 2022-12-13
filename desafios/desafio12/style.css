@@ -15,58 +15,65 @@
 
 }
 
-
-
-
-body {
-    background-color: white;
-
-}
-
 * {
     margin: 0;
     padding: 0;
-;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header {
     background-color: black;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    text-align: center
-    ;
-
-}
-
-h1 {
-    font-family: 'Passion One';
-    font-size: 160px;
     text-align: center;
 }
 
-h2 {
-    color: white;
-    
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
-
-section  {
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5vh;
-    padding: 10px;
-    margin-bottom: 15px;
-    width: 1000vh;
-
+header > p {
+    padding-bottom: 50px;
 }
 
-.transparente {
-    background-color: rgba(0, 0, 0, 0.418);
+header a, footer a {
     color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: black;
 }
 
 footer {
     background-color: black;
+    text-align: center;
     color: white;
+    padding: 10px;
 }
